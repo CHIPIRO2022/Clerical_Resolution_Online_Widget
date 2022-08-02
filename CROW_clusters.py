@@ -672,7 +672,6 @@ class ClericalApp:
          os.rename(self.filename_old, self.filename_done)
          working_file.to_csv(self.filename_done, index=False)
 
-
         else:
             # If not it yet finshed save it using the old file name
             working_file.to_csv(self.filename_old, index=False)
